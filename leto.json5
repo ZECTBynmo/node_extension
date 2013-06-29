@@ -1,0 +1,38 @@
+////////////////////////////////////////////////////////////////////////////////
+// Leto template defs
+{   "image": "http://nodejs.org/images/logos/nodejs-1024x768.png", 
+    "name": "Basic Node C++ Extension",
+    "version": "0.0.1",                                                   
+    "github": {                                                           
+        "user": "ZECTBynmo",                                              
+        "repo": "node_extension"
+    }, 
+
+    ////////////////////////////////////////////////////////////////////////////////
+    // Setup procedure
+    "procedure": [
+
+        // ******************************
+        // Search and Replace
+        // ******************************
+        {   "title": "Change names and paths",
+            "type": "replace",                  
+                                              
+            "keywords": {       
+                "MyExtension": "projectName",    
+                "myExtension": "projectNameLower",    
+            },                                 
+                
+            "extensions": [                     
+                ".h",                          
+                ".cpp",                          
+                ".js",                          
+                ".md",
+                ".gyp",
+                ".gitignore",
+                ".json"
+            ]
+        },
+
+    ] // end setup procedure 
+}
