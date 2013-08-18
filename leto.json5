@@ -19,9 +19,9 @@
             "type": "replace",                  
                                               
             "keywords": {       
-                "MyExtension": "projectName",    
-                "myExtension": "projectNameLower",    
-            },                                 
+                "projectName": MyExtension",
+                "projectNameLower": "myExtension" 
+            },
                 
             "extensions": [                     
                 ".h",                          
