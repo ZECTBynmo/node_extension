@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 // Leto template defs
 {   "image": "http://nodejs.org/images/logos/nodejs-1024x768.png", 
-    "name": "Basic Node C++ Extension",
+    "name": "Basic-node-extension",
     "version": "0.0.1",                                                   
     "github": {                                                           
         "user": "ZECTBynmo",                                              
