@@ -10,6 +10,7 @@
 
     ////////////////////////////////////////////////////////////////////////////////
     // Setup procedure
+    "functions": "leto_overrides.js",
     "procedure": [
 
         // ******************************
@@ -19,7 +20,7 @@
             "type": "replace",                  
                                               
             "keywords": {       
-                "projectName": MyExtension",
+                "projectName": "MyExtension",
                 "projectNameLower": "myExtension" 
             },
                 
